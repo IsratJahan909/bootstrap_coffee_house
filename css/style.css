@@ -1,0 +1,34 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/hero-coffee.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.8) !important;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #6f4e37;
+  border-color: #6f4e37;
+}
+
+.btn-primary:hover {
+  background-color: #8b6f47;
+  border-color: #8b6f47;
+}
