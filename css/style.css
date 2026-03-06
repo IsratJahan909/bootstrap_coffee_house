@@ -32,3 +32,12 @@ h1, h2, h5 {
   background-color: #8b6f47;
   border-color: #8b6f47;
 }
+
+.gallery-img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
